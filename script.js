@@ -277,9 +277,9 @@ function timeCalc() {
 		let timeTilReset;
 		// Display seconds if the setting is on.
 		if (showSeconds) {
-			timeTilReset = gameDataConverted[i].hoursTilReset + " hours " + gameDataConverted[i].minutesTilReset + " minutes " + gameDataConverted[i].secondsTilReset + " seconds "
+			timeTilReset = gameDataConverted[i].hoursTilReset + " часов " + gameDataConverted[i].minutesTilReset + " минут " + gameDataConverted[i].secondsTilReset + " секунд "
 		} else {
-			timeTilReset = gameDataConverted[i].hoursTilReset + " hours " + gameDataConverted[i].minutesTilReset + " minutes";
+			timeTilReset = gameDataConverted[i].hoursTilReset + " часов " + gameDataConverted[i].minutesTilReset + " минут";
 		}
 
 		gameBody.getElementsByTagName("p")[1].textContent = gameDataConverted[i].localDailyReset.format(resetTimeFormat);
