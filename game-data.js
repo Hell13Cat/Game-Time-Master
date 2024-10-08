@@ -176,6 +176,13 @@ const gameData = [
 		icon: "atelier-online-alchemist-of-bressisle"
 	},
 	{
+		game: "Atelier Resleriana",
+		server: "Global",
+		timezone: "Etc/GMT-8",
+		dailyReset: "11:00",
+		icon: "atelier-resleriana"
+	},
+	{
 		game: "Attack on Time:Kaisen of girls",
 		server: "EN",
 		timezone: "America/New_York",
@@ -225,6 +232,20 @@ const gameData = [
 		icon: "bang-dream-gbp-jp"
 	},
 	{
+		game: "Black Clover M",
+		server: "AS",
+		timezone: "Etc/GMT-7",
+		dailyReset: "04:00",
+		icon: "black-clover-m"
+	},
+	{
+		game: "Black Clover M",
+		server: "EU",
+		timezone: "Etc/GMT-1",
+		dailyReset: "04:00",
+		icon: "black-clover-m"
+	},
+	{
 		game: "Bleach: Brave Souls",
 		server: "Global",
 		timezone: "Asia/Tokyo",
@@ -251,6 +272,20 @@ const gameData = [
 		timezone: "Etc/UTC",
 		dailyReset: "20:00",
 		icon: "brave-nine"
+	},
+	{
+		game: "BrownDust2",
+		server: "Global",
+		timezone: "Etc/UTC",
+		dailyReset: "00:00",
+		icon: "browndust2"
+	},
+	{
+		game: "BrownDust2",
+		server: "Korea",
+		timezone: "Asia/Seoul",
+		dailyReset: "09:00",
+		icon: "browndust2"
 	},
 	{
 		game: "Captain Tsubasa: Dream Team",
@@ -418,6 +453,13 @@ const gameData = [
 		game: "Disgaea RPG",
 		server: "Global",
 		timezone: "Etc/GMT+4",
+		dailyReset: "00:00",
+		icon: "disgaea-rpg"
+	},
+	{
+		game: "Disgaea RPG",
+		server: "JP",
+		timezone: "Asia/Tokyo",
 		dailyReset: "00:00",
 		icon: "disgaea-rpg"
 	},
@@ -1011,8 +1053,9 @@ const gameData = [
 		game: "LAST CLOUDIA",
 		server: "EN",
 		timezone: "America/Los_Angeles",
-		dailyReset: "05:00",
-		icon: "last-cloudia"
+		dailyReset: "19:00",
+		icon: "last-cloudia",
+		utcDailyReset: true
 	},
 	{
 		game: "Last Origin",
@@ -1095,6 +1138,27 @@ const gameData = [
 		dailyReset: "10:00",
 		icon: "lost-ark",
 		utcDailyReset: true
+	},
+	{
+		game: "Love and Deepspace",
+		server: "Asia",
+		timezone: "Etc/GMT-8",
+		dailyReset: "05:00",
+		icon: "love-and-deepspace"
+	},
+	{
+		game: "Love and Deepspace",
+		server: "EU",
+		timezone: "Etc/GMT-2",
+		dailyReset: "05:00",
+		icon: "love-and-deepspace"
+	},
+	{
+		game: "Love and Deepspace",
+		server: "NA",
+		timezone: "Etc/GMT+7",
+		dailyReset: "05:00",
+		icon: "love-and-deepspace"
 	},
 	{
 		game: "Love Live! School Idol Festival 2 MIRACLE LIVE!",
@@ -1461,6 +1525,13 @@ const gameData = [
 		timezone: "Asia/Tokyo",
 		dailyReset: "05:00",
 		icon: "red-pride-of-eden"
+	},
+	{
+		game: "Reverse: 1999",
+		server: "Asia",
+		timezone: "Etc/GMT-8",
+		dailyReset: "05:00",
+		icon: "reverse-1999"
 	},
 	{
 		game: "Reverse: 1999",
@@ -1908,10 +1979,60 @@ const gameData = [
 		icon: "world-flipper"
 	},
 	{
+		game: "Wuthering Waves",
+		server: "America",
+		timezone: "Etc/GMT+5",
+		dailyReset: "04:00",
+		icon: "wuthering-waves"
+	},
+	{
+		game: "Wuthering Waves",
+		server: "Asia",
+		timezone: "Etc/GMT-8",
+		dailyReset: "04:00",
+		icon: "wuthering-waves"
+	},
+	{
+		game: "Wuthering Waves",
+		server: "Europe",
+		timezone: "Etc/GMT-1",
+		dailyReset: "04:00",
+		icon: "wuthering-waves"
+	},
+	{
+		game: "Wuthering Waves",
+		server: "SEA",
+		timezone: "Etc/GMT-8",
+		dailyReset: "04:00",
+		icon: "wuthering-waves"
+	},
+	{
 		game: "Yu-Gi-Oh! Duel Links",
 		server: "Global",
 		timezone: "Asia/Tokyo",
 		dailyReset: "05:00",
 		icon: "yu-gi-oh-duel-links"
 	},
+	{
+		game: "Zenless Zone Zero",
+		server: "America",
+		timezone: "Etc/GMT+5",
+		dailyReset: "04:00",
+		icon: "zenless-zone-zero"
+	},
+	{
+		game: "Zenless Zone Zero",
+		server: "Asia",
+		timezone: "Etc/GMT-8",
+		dailyReset: "04:00",
+		icon: "zenless-zone-zero"
+	},
+	{
+		game: "Zenless Zone Zero",
+		server: "Europe",
+		timezone: "Etc/GMT-1",
+		dailyReset: "04:00",
+		icon: "zenless-zone-zero"
+	},
+	
 ];
